@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4509fdc2-2864-4352-93a7-0a6d02997573" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/SpringbootMybatiesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dao/ItemDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dataobject/ItemDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/error/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/error/CommonError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/error/EmBusinessError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/response/CommonReturnType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/model/ItemModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/validator/ValidationResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/validator/ValidatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ItemDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fruitshop/springbootmybaties/SpringbootMybatiesApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="yy" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XKauDmxnq8g55MO9zgODC62H1B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\fruitshop\springboot-mybaties\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootMybatiesApplication">
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="springboot-mybaties [mybatis-generator:generate]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringbootMybatiesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-mybaties" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fruitshop.springbootmybaties.SpringbootMybatiesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.springboot-mybaties [mybatis-generator:generate]" />
+      <item itemvalue="Spring Boot.SpringbootMybatiesApplication" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4509fdc2-2864-4352-93a7-0a6d02997573" name="Default Changelist" comment="" />
+      <created>1580797460789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580797460789</updated>
+      <workItem from="1580797466068" duration="5430000" />
+      <workItem from="1580813994661" duration="1234000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="91" key="#Project_Structure" timestamp="1580802644611">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="91" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1580802644611" />
+    <state x="223" y="91" width="1089" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580801388231">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="223" y="91" width="1089" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1580801388231" />
+    <state x="958" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1580814138017">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="958" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1580814138017" />
+    <state x="262" y="26" key="CommitChangelistDialog2" timestamp="1580815350043">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="262" y="26" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1580815350043" />
+    <state x="549" y="174" key="FileChooserDialogImpl" timestamp="1580815007641">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1580815007641" />
+    <state width="723" height="215" key="GridCell.Tab.0.bottom" timestamp="1580805254763">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="215" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580805254763" />
+    <state width="723" height="215" key="GridCell.Tab.0.center" timestamp="1580805254763">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="215" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1580805254763" />
+    <state width="723" height="215" key="GridCell.Tab.0.left" timestamp="1580805254763">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="215" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1580805254763" />
+    <state width="723" height="215" key="GridCell.Tab.0.right" timestamp="1580805254763">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="215" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580805254763" />
+    <state width="723" height="215" key="GridCell.Tab.1.bottom" timestamp="1580805254763">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="215" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580805254763" />
+    <state width="723" height="215" key="GridCell.Tab.1.center" timestamp="1580805254763">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="215" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1580805254763" />
+    <state width="723" height="215" key="GridCell.Tab.1.left" timestamp="1580805254763">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="215" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1580805254763" />
+    <state width="723" height="215" key="GridCell.Tab.1.right" timestamp="1580805254763">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="215" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1580805254763" />
+    <state x="598" y="91" key="Maven.ArtifactSearchDialog" timestamp="1580814320841">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="598" y="91" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1580814320841" />
+    <state x="506" y="143" key="RollbackChangesDialog" timestamp="1580815176105">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="506" y="143" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1580815176105" />
+    <state x="270" y="75" key="SettingsEditor" timestamp="1580814934536">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1580814934536" />
+  </component>
+</project>
