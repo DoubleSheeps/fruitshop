@@ -1,9 +1,9 @@
-package com.fruitshop.springbootmybaties.service.model;
+package com.fruitshop.springbootmybaties.controller.viewobject;
 
 import java.math.BigDecimal;
 import java.util.Date;
 
-public class ItemModel {
+public class ItemVO {
     private Integer id;
     private String title;
     private String description;

@@ -2,7 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4509fdc2-2864-4352-93a7-0a6d02997573" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/controller/viewobject/ItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dao/ItemStockDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dataobject/ItemStockDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ItemStockDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/springboot-mybaties.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/controller/ItemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/controller/viewobject/ItemVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/dao/ItemStockDOMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/dataobject/ItemStockDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/error/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/error/CommonError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/error/EmBusinessError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/response/CommonReturnType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/service/ItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/service/impl/ItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/service/model/ItemModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/validator/ValidationResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/validator/ValidatorImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/ItemStockDOMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/SpringbootMybatiesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/SpringbootMybatiesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dao/ItemDOMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dao/ItemDOMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dataobject/ItemDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dataobject/ItemDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/model/ItemModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/model/ItemModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/ItemDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/ItemDOMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/SpringbootMybatiesApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/SpringbootMybatiesApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/dao/ItemDOMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/dao/ItemDOMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/dataobject/ItemDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/dataobject/ItemDO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/ItemDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/ItemDOMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +51,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -27,13 +66,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XKauDmxnq8g55MO9zgODC62H1B" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -42,10 +84,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -54,6 +96,31 @@
   </component>
   <component name="RunManager" selected="Spring Boot.SpringbootMybatiesApplication">
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="springboot-mybaties [mybatis-generator:generate] (1)" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -111,6 +178,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Maven.springboot-mybaties [mybatis-generator:generate] (1)" />
       <item itemvalue="Maven.springboot-mybaties [mybatis-generator:generate]" />
       <item itemvalue="Spring Boot.SpringbootMybatiesApplication" />
     </list>
@@ -138,7 +206,8 @@
       <option name="presentableId" value="Default" />
       <updated>1580797460789</updated>
       <workItem from="1580797466068" duration="5430000" />
-      <workItem from="1580813994661" duration="1538000" />
+      <workItem from="1580813994661" duration="2132000" />
+      <workItem from="1580817968944" duration="8236000" />
     </task>
     <task id="LOCAL-00001" summary="利用Spring Initializr创建SpringBoot电商项目框架">
       <created>1580815385882</created>
@@ -154,6 +223,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="利用Spring Initializr创建SpringBoot电商项目框架" />
     <option name="LAST_COMMIT_MESSAGE" value="利用Spring Initializr创建SpringBoot电商项目框架" />
   </component>
@@ -162,14 +232,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="91" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1580802644611" />
-    <state x="223" y="91" width="1089" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580801388231">
+    <state x="223" y="91" width="1089" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580824432886">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="223" y="91" width="1089" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1580801388231" />
-    <state x="958" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1580814138017">
+    <state x="223" y="91" width="1089" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1580824432886" />
+    <state x="958" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1580821272171">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="958" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1580814138017" />
+    <state x="958" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1580821272171" />
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580825596200">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1580825596200" />
     <state x="262" y="26" key="CommitChangelistDialog2" timestamp="1580815382261">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -178,38 +252,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1580815007641" />
-    <state width="723" height="215" key="GridCell.Tab.0.bottom" timestamp="1580805254763">
+    <state width="1493" height="681" key="GridCell.Tab.0.bottom" timestamp="1580826148093">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="215" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580805254763" />
-    <state width="723" height="215" key="GridCell.Tab.0.center" timestamp="1580805254763">
+    <state width="1493" height="681" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580826148093" />
+    <state width="1493" height="681" key="GridCell.Tab.0.center" timestamp="1580826148093">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="215" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1580805254763" />
-    <state width="723" height="215" key="GridCell.Tab.0.left" timestamp="1580805254763">
+    <state width="1493" height="681" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1580826148093" />
+    <state width="1493" height="681" key="GridCell.Tab.0.left" timestamp="1580826148093">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="215" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1580805254763" />
-    <state width="723" height="215" key="GridCell.Tab.0.right" timestamp="1580805254763">
+    <state width="1493" height="681" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1580826148093" />
+    <state width="1493" height="681" key="GridCell.Tab.0.right" timestamp="1580826148093">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="215" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580805254763" />
-    <state width="723" height="215" key="GridCell.Tab.1.bottom" timestamp="1580805254763">
+    <state width="1493" height="681" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580826148093" />
+    <state width="1493" height="681" key="GridCell.Tab.1.bottom" timestamp="1580826148093">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="215" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580805254763" />
-    <state width="723" height="215" key="GridCell.Tab.1.center" timestamp="1580805254763">
+    <state width="1493" height="681" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580826148093" />
+    <state width="1493" height="681" key="GridCell.Tab.1.center" timestamp="1580826148093">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="215" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1580805254763" />
-    <state width="723" height="215" key="GridCell.Tab.1.left" timestamp="1580805254763">
+    <state width="1493" height="681" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1580826148093" />
+    <state width="1493" height="681" key="GridCell.Tab.1.left" timestamp="1580826148093">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="215" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1580805254763" />
-    <state width="723" height="215" key="GridCell.Tab.1.right" timestamp="1580805254763">
+    <state width="1493" height="681" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1580826148093" />
+    <state width="1493" height="681" key="GridCell.Tab.1.right" timestamp="1580826148093">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="215" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1580805254763" />
+    <state width="1493" height="681" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1580826148093" />
     <state x="598" y="91" key="Maven.ArtifactSearchDialog" timestamp="1580814320841">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -218,9 +292,13 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="506" y="143" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1580815176105" />
-    <state x="270" y="75" key="SettingsEditor" timestamp="1580814934536">
+    <state x="270" y="15" key="SettingsEditor" timestamp="1580822481991">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1580814934536" />
+    <state x="270" y="15" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1580822481991" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1580818704493">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1580818704493" />
   </component>
 </project>
