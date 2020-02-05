@@ -17,6 +17,15 @@ public class ItemVO {
     private String storeName;
     private Date createTime;
     private Date updateTime;
+    private String imgUrl;
+
+    public String getImgUrl() {
+        return imgUrl;
+    }
+
+    public void setImgUrl(String imgUrl) {
+        this.imgUrl = imgUrl;
+    }
 
     public Integer getId() {
         return id;

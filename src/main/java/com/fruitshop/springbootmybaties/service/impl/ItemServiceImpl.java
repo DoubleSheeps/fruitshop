@@ -1,8 +1,6 @@
 package com.fruitshop.springbootmybaties.service.impl;
 
-import com.fruitshop.springbootmybaties.dao.ItemDOMapper;
 import com.fruitshop.springbootmybaties.dao.ItemStockDOMapper;
-import com.fruitshop.springbootmybaties.dataobject.ItemDO;
 import com.fruitshop.springbootmybaties.dataobject.ItemStockDO;
 import com.fruitshop.springbootmybaties.error.BusinessException;
 import com.fruitshop.springbootmybaties.error.EmBusinessError;

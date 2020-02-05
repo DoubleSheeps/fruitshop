@@ -17,6 +17,8 @@ public class ItemModel {
     private String storeName;
     private Date createTime;
     private Date updateTime;
+    private String imgUrl;
+
 
     public Integer getId() {
         return id;
@@ -104,5 +106,13 @@ public class ItemModel {
 
     public void setUpdateTime(Date updateTime) {
         this.updateTime = updateTime;
+    }
+
+    public String getImgUrl() {
+        return imgUrl;
+    }
+
+    public void setImgUrl(String imgUrl) {
+        this.imgUrl = imgUrl;
     }
 }
