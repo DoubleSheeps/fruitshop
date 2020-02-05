@@ -4,7 +4,7 @@
 2020.2.4
 generatorConfiguration配置文件中添加属性：
 <jdbcConnection
-          ......
+          
           <property name="nullCatalogMeansCurrent" value="true" />
 </jdbcConnection>
 防止自动生成Mapper文件收到数据库同名数据表的干扰
