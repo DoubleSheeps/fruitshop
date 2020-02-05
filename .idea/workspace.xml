@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4509fdc2-2864-4352-93a7-0a6d02997573" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/controller/viewobject/ItemVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/controller/viewobject/ItemVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dao/ItemDOMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dao/ItemDOMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dataobject/ItemDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dataobject/ItemDO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/model/ItemModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/model/ItemModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/ItemDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/ItemDOMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +171,7 @@
       <workItem from="1580797466068" duration="5430000" />
       <workItem from="1580813994661" duration="2132000" />
       <workItem from="1580817968944" duration="8731000" />
-      <workItem from="1580868337470" duration="894000" />
+      <workItem from="1580868337470" duration="1342000" />
     </task>
     <task id="LOCAL-00001" summary="利用Spring Initializr创建SpringBoot电商项目框架">
       <created>1580815385882</created>
@@ -192,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580826288352</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="数据库中图片地址命名有点小问题，已修正">
+      <created>1580869320132</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580869320132</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +204,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="利用Spring Initializr创建SpringBoot电商项目框架" />
     <MESSAGE value="第一次更新，优化了很多错误" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次更新，优化了很多错误" />
+    <MESSAGE value="数据库中图片地址命名有点小问题，已修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据库中图片地址命名有点小问题，已修正" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="91" key="#Project_Structure" timestamp="1580802644611">
@@ -221,10 +224,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1580868917833" />
-    <state x="262" y="26" key="CommitChangelistDialog2" timestamp="1580826285445">
+    <state x="262" y="26" key="CommitChangelistDialog2" timestamp="1580869318044">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="262" y="26" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1580826285445" />
+    <state x="262" y="26" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1580869318044" />
     <state x="549" y="174" key="FileChooserDialogImpl" timestamp="1580815007641">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
