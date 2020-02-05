@@ -1,22 +1,40 @@
 package com.fruitshop.springbootmybaties.service.model;
 
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 import java.util.Date;
 
 public class ItemModel {
     private Integer id;
+    @NotBlank(message = "商品名不能为空")
     private String title;
+    @NotBlank(message = "商品描述不能为空")
     private String description;
 
-    //分类
+    //分类 1水果，2水产，3肉类，4鸡蛋，5蔬菜，6速冻产品
+    @Max(value = 6,message = "种类必须在1~6之间")
+    @Min(value = 1,message = "种类必须在1~6之间")
     private Integer sort;
+    //销售状态 1销售中，2已下架
+    @Max(value = 2,message = "状态必须为1或2")
+    @Min(value = 1,message = "状态必须为1或2")
     private Integer status;
+    @NotNull(message = "商品价格不能为空")
     private BigDecimal price;
+    @Min(value = 0,message = "商品库存不能为负数")
+    @NotNull(message = "商品库存不能为空")
     private Integer stock;
+    @Min(value = 0,message = "商品销量不能为负数")
+    @NotNull(message = "商品销量不能为空")
     private Integer sales;
+    @NotBlank(message = "商铺名不能为空")
     private String storeName;
     private Date createTime;
     private Date updateTime;
+    @NotBlank(message = "商品图片不能为空")
     private String imgUrl;
 
 
