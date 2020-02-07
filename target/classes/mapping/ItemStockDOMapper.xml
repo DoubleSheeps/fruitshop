@@ -103,6 +103,17 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
+
+  <update id="updateByItemIdSelective" parameterType="com.fruitshop.springbootmybaties.dataobject.ItemStockDO">
+    update item_stock
+    <set>
+      <if test="stock != null">
+        stock = #{stock,jdbcType=INTEGER},
+      </if>
+    </set>
+    where item_id = #{itemId,jdbcType=INTEGER}
+  </update>
+
   <update id="updateByPrimaryKey" parameterType="com.fruitshop.springbootmybaties.dataobject.ItemStockDO">
     <!--
       WARNING - @mbg.generated

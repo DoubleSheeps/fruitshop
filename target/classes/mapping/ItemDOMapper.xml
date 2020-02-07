@@ -39,6 +39,28 @@
     from item
     where id = #{id,jdbcType=INTEGER}
   </select>
+  <select id="selectByStatus" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from item
+    where status = #{status,jdbcType=INTEGER}
+    order by sales DESC
+  </select>
+
+  <select id="selectBySort" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from item
+    where sort = #{sort,jdbcType=INTEGER} and status = 1
+    order by sales DESC
+  </select>
+  <select id="selectByKeyWord" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from item
+    where title like #{keyWord,jdbcType=VARCHAR} or description like #{keyWord,jdbcType=VARCHAR}
+  </select>
+
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     <!--
       WARNING - @mbg.generated

@@ -27,8 +27,6 @@ public class ItemModel {
     @Min(value = 0,message = "商品库存不能为负数")
     @NotNull(message = "商品库存不能为空")
     private Integer stock;
-    @Min(value = 0,message = "商品销量不能为负数")
-    @NotNull(message = "商品销量不能为空")
     private Integer sales;
     @NotBlank(message = "商铺名不能为空")
     private String storeName;
