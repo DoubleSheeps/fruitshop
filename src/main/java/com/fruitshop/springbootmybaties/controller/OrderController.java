@@ -7,6 +7,7 @@ import com.fruitshop.springbootmybaties.response.CommonReturnType;
 import com.fruitshop.springbootmybaties.service.OrderService;
 import com.fruitshop.springbootmybaties.service.model.LogisticsModel;
 import com.fruitshop.springbootmybaties.service.model.OrderModel;
+import com.fruitshop.springbootmybaties.service.model.UserModel;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -28,27 +29,27 @@ public class OrderController extends BaseController{
     public CommonReturnType createOrder(@RequestParam(name = "itemId")Integer itemId,
                                         @RequestParam(name = "amount")Integer amount){
         //获取用户的登录信息
-//        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
-//        if(isLogin == null || !isLogin.booleanValue()){
-//            throw new BusinessException(EmBusinessError.USER_NOT_LOGIN);
-//        }
-//        UserModel userModel = (UserModel)httpServletRequest.getSession().getAttribute("LOGIN_USER");
+        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
+        if(isLogin == null || !isLogin.booleanValue()){
+            throw new BusinessException(EmBusinessError.USER_NOT_LOGIN);
+        }
+        UserModel userModel = (UserModel)httpServletRequest.getSession().getAttribute("LOGIN_USER");
 
 
-        OrderModel orderModel=orderService.createOrder(itemId,0,amount);
+        OrderModel orderModel=orderService.createOrder(itemId,userModel.getId(),amount);
         return CommonReturnType.create(orderModel);
     }
 
     @RequestMapping(value = "/get",method = {RequestMethod.GET})
     public CommonReturnType getOrders(){
         //获取用户的登录信息
-//        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
-//        if(isLogin == null || !isLogin.booleanValue()){
-//            throw new BusinessException(EmBusinessError.USER_NOT_LOGIN);
-//        }
-//        UserModel userModel = (UserModel)httpServletRequest.getSession().getAttribute("LOGIN_USER");
+        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
+        if(isLogin == null || !isLogin.booleanValue()){
+            throw new BusinessException(EmBusinessError.USER_NOT_LOGIN);
+        }
+        UserModel userModel = (UserModel)httpServletRequest.getSession().getAttribute("LOGIN_USER");
 
-        List<OrderModel> orderModelList = orderService.getOrders(0);
+        List<OrderModel> orderModelList = orderService.getOrders(userModel.getId());
         List<OrderVO> orderVOList = orderModelList.stream().map(orderModel -> {
             OrderVO orderVO = this.convertFromModel(orderModel);
             return orderVO;
@@ -62,12 +63,12 @@ public class OrderController extends BaseController{
                                           @RequestParam(name = "paymentMethod") Integer paymentMethod,
                                           @RequestParam(name = "address") String address){
         //获取用户的登录信息
-//        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
-//        if(isLogin == null || !isLogin.booleanValue()){
-//            throw new BusinessException(EmBusinessError.USER_NOT_LOGIN);
-//        }
-//        UserModel userModel = (UserModel)httpServletRequest.getSession().getAttribute("LOGIN_USER");
-        LogisticsModel logisticsModel = orderService.completeOrder(id,0,paymentMethod,address);
+        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
+        if(isLogin == null || !isLogin.booleanValue()){
+            throw new BusinessException(EmBusinessError.USER_NOT_LOGIN);
+        }
+        UserModel userModel = (UserModel)httpServletRequest.getSession().getAttribute("LOGIN_USER");
+        LogisticsModel logisticsModel = orderService.completeOrder(id,userModel.getId(),paymentMethod,address);
         return CommonReturnType.create(logisticsModel);
 
     }
@@ -75,12 +76,12 @@ public class OrderController extends BaseController{
     @RequestMapping(value = "/cancel",method = {RequestMethod.POST},consumes = {BaseController.CONTENT_TYPE_FORMED})
     public CommonReturnType cancelOrder(@RequestParam(name = "id") String id){
         //获取用户的登录信息
-//        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
-//        if(isLogin == null || !isLogin.booleanValue()){
-//            throw new BusinessException(EmBusinessError.USER_NOT_LOGIN);
-//        }
-//        UserModel userModel = (UserModel)httpServletRequest.getSession().getAttribute("LOGIN_USER");
-        orderService.cancelOrder(id,0);
+        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
+        if(isLogin == null || !isLogin.booleanValue()){
+            throw new BusinessException(EmBusinessError.USER_NOT_LOGIN);
+        }
+        UserModel userModel = (UserModel)httpServletRequest.getSession().getAttribute("LOGIN_USER");
+        orderService.cancelOrder(id,userModel.getId());
         return CommonReturnType.create(null);
     }
 

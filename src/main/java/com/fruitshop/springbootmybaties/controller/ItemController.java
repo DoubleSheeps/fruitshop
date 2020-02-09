@@ -40,13 +40,13 @@ public class ItemController extends BaseController {
                                        @RequestParam(name = "imgUrl") String imgUrl,
                                        @RequestParam(name = "price") BigDecimal price,
                                        @RequestParam(name = "stock") Integer stock){
-//        Boolean isStoreLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_STORE_LOGIN");
-//        if(isStoreLogin == null || !isStoreLogin.booleanValue()){
-//            throw new BusinessException(EmBusinessError.STORE_NOT_LOGIN,"商铺登录信息失效");
-//        }
+        Boolean isStoreLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_STORE_LOGIN");
+        if(isStoreLogin == null || !isStoreLogin.booleanValue()){
+            throw new BusinessException(EmBusinessError.STORE_NOT_LOGIN,"商铺登录信息失效");
+        }
         ItemModel itemModel= new ItemModel();
-//        StoreModel storeModel = (StoreModel) httpServletRequest.getSession().getAttribute("LOGIN_STORE");
-//        itemModel.setStoreName(storeModel.getStoreName());
+        StoreModel storeModel = (StoreModel) httpServletRequest.getSession().getAttribute("LOGIN_STORE");
+        itemModel.setStoreName(storeModel.getStoreName());
         itemModel.setStoreName("admin");
         itemModel.setTitle(title);
         itemModel.setDescription(description);
@@ -71,13 +71,13 @@ public class ItemController extends BaseController {
                                        @RequestParam(name = "imgUrl") String imgUrl,
                                        @RequestParam(name = "price") BigDecimal price,
                                        @RequestParam(name = "stock") Integer stock){
-//        Boolean isStoreLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_STORE_LOGIN");
-//        if(isStoreLogin == null || !isStoreLogin.booleanValue()){
-//            throw new BusinessException(EmBusinessError.STORE_NOT_LOGIN,"商铺登录信息失效");
-//        }
+        Boolean isStoreLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_STORE_LOGIN");
+        if(isStoreLogin == null || !isStoreLogin.booleanValue()){
+            throw new BusinessException(EmBusinessError.STORE_NOT_LOGIN,"商铺登录信息失效");
+        }
         ItemModel itemModel= new ItemModel();
-//        StoreModel storeModel = (StoreModel) httpServletRequest.getSession().getAttribute("LOGIN_STORE");
-//        itemModel.setStoreName(storeModel.getStoreName());
+        StoreModel storeModel = (StoreModel) httpServletRequest.getSession().getAttribute("LOGIN_STORE");
+        itemModel.setStoreName(storeModel.getStoreName());
         itemModel.setStoreName("admin");
         itemModel.setId(id);
         itemModel.setTitle(title);
