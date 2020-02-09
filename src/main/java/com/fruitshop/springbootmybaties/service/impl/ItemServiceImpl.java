@@ -113,6 +113,36 @@ public class ItemServiceImpl implements ItemService {
         return itemModelList;
     }
 
+    @Override
+    public Boolean decreaseStock(Integer itemId, Integer amount) {
+        int result = itemStockDOMapper.decreaseStock(itemId,amount);
+        if (result == 1){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    @Override
+    public void increaseStock(Integer itemId, Integer amount) {
+        itemStockDOMapper.increaseStock(itemId,amount);
+    }
+
+    @Override
+    public void increaseSales(Integer itemId, Integer amount) {
+        itemDOMapper.increaseSales(itemId,amount);
+    }
+
+    @Override
+    public Boolean decreaseSales(Integer itemId, Integer amount) {
+        int result = itemDOMapper.decreaseSales(itemId,amount);
+        if(result == 1){
+            return true;
+        }else {
+            return false;
+        }
+    }
+
     private ItemModel convertFromDataObject(ItemDO itemDO,ItemStockDO itemStockDO){
         if(itemDO == null || itemStockDO == null){
             return null;

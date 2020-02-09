@@ -20,6 +20,11 @@ public enum EmBusinessError implements CommonError {
     STORE_NOT_EXIST(40001,"商铺不存在"),
     STORE_LOGIN_FAIL(40002,"商铺账号或密码错误"),
     STORE_NOT_LOGIN(40003,"商铺未登录"),
+
+    //5000开头为订单信息相关错误类型
+    ORDER_NOT_EXIST(50001,"订单不存在"),
+    ORDER_STATUS_ERROR(50002,"订单状态出现异常"),
+
     ;
 
     private EmBusinessError(int errCode,String errMsg){

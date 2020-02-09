@@ -1,22 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4509fdc2-2864-4352-93a7-0a6d02997573" name="Default Changelist" comment="g">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="4509fdc2-2864-4352-93a7-0a6d02997573" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/controller/viewobject/OrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dao/LogisticsDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dao/OrderDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dao/SequenceDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dataobject/LogisticsDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dataobject/OrderDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dataobject/SequenceDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/model/LogisticsModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/model/OrderModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/LogisticsDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/OrderDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/SequenceDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/controller/viewobject/OrderVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/dao/LogisticsDOMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/dao/OrderDOMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/dao/SequenceDOMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/dataobject/LogisticsDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/dataobject/OrderDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/dataobject/SequenceDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/service/model/LogisticsModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/service/model/OrderModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/LogisticsDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/OrderDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/SequenceDOMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/SpringbootMybatiesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/SpringbootMybatiesApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dao/ItemDOMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dao/ItemDOMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dao/ItemStockDOMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/dao/ItemStockDOMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/error/EmBusinessError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/error/EmBusinessError.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/ItemService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/model/ItemModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fruitshop/springbootmybaties/service/model/ItemModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/ItemDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/ItemDOMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/ItemStockDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/ItemStockDOMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/SpringbootMybatiesApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/SpringbootMybatiesApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/dao/ItemDOMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/dao/ItemDOMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/dao/ItemStockDOMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/dao/ItemStockDOMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/error/EmBusinessError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/error/EmBusinessError.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/service/ItemService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/service/impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fruitshop/springbootmybaties/service/impl/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mapping/ItemDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/ItemDOMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mapping/ItemStockDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/ItemStockDOMapper.xml" afterDir="false" />
     </list>
@@ -189,7 +224,8 @@
       <workItem from="1580817968944" duration="8731000" />
       <workItem from="1580868337470" duration="10137000" />
       <workItem from="1580909116102" duration="5434000" />
-      <workItem from="1581043095386" duration="3826000" />
+      <workItem from="1581043095386" duration="19016000" />
+      <workItem from="1581233154696" duration="7789000" />
     </task>
     <task id="LOCAL-00001" summary="利用Spring Initializr创建SpringBoot电商项目框架">
       <created>1580815385882</created>
@@ -219,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580876293633</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="基本完成商品相关接口">
+      <created>1581074238414</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581074238414</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +274,8 @@
     <MESSAGE value="第一次更新，优化了很多错误" />
     <MESSAGE value="数据库中图片地址命名有点小问题，已修正" />
     <MESSAGE value="完成创建商品接口，并修复了小BUG" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="基本完成商品相关接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本完成商品相关接口" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="91" key="#Project_Structure" timestamp="1580802644611">
@@ -242,14 +286,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="91" width="1089" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1580824432886" />
-    <state x="958" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1581043230987">
+    <state x="958" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1581238564493">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="958" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1581043230987" />
-    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580868917833">
+    <state x="958" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1581238564493" />
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581240383638">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1580868917833" />
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1581240383638" />
     <state x="262" y="26" key="CommitChangelistDialog2" timestamp="1581074235812">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -266,54 +310,54 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="589" y="349" width="382" height="166" key="Github.CreateGistDialog/0.0.1536.864@0.0.1536.864" timestamp="1580869214670" />
-    <state width="1493" height="681" key="GridCell.Tab.0.bottom" timestamp="1581073923519">
+    <state width="1493" height="338" key="GridCell.Tab.0.bottom" timestamp="1581240822834">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="681" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581073923519" />
-    <state width="1493" height="681" key="GridCell.Tab.0.center" timestamp="1581073923519">
+    <state width="1493" height="338" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581240822834" />
+    <state width="1493" height="338" key="GridCell.Tab.0.center" timestamp="1581240822834">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="681" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581073923519" />
-    <state width="1493" height="681" key="GridCell.Tab.0.left" timestamp="1581073923519">
+    <state width="1493" height="338" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581240822834" />
+    <state width="1493" height="338" key="GridCell.Tab.0.left" timestamp="1581240822834">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="681" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581073923519" />
-    <state width="1493" height="681" key="GridCell.Tab.0.right" timestamp="1581073923519">
+    <state width="1493" height="338" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581240822834" />
+    <state width="1493" height="338" key="GridCell.Tab.0.right" timestamp="1581240822834">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="681" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581073923519" />
-    <state width="1493" height="681" key="GridCell.Tab.1.bottom" timestamp="1581073923519">
+    <state width="1493" height="338" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581240822834" />
+    <state width="1493" height="338" key="GridCell.Tab.1.bottom" timestamp="1581240822835">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="681" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581073923519" />
-    <state width="1493" height="681" key="GridCell.Tab.1.center" timestamp="1581073923519">
+    <state width="1493" height="338" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581240822835" />
+    <state width="1493" height="338" key="GridCell.Tab.1.center" timestamp="1581240822834">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="681" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1581073923519" />
-    <state width="1493" height="681" key="GridCell.Tab.1.left" timestamp="1581073923519">
+    <state width="1493" height="338" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1581240822834" />
+    <state width="1493" height="338" key="GridCell.Tab.1.left" timestamp="1581240822834">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="681" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1581073923519" />
-    <state width="1493" height="681" key="GridCell.Tab.1.right" timestamp="1581073923519">
+    <state width="1493" height="338" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1581240822834" />
+    <state width="1493" height="338" key="GridCell.Tab.1.right" timestamp="1581240822834">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="681" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1581073923519" />
-    <state width="1493" height="267" key="GridCell.Tab.2.bottom" timestamp="1581072900603">
+    <state width="1493" height="338" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1581240822834" />
+    <state width="1493" height="276" key="GridCell.Tab.2.bottom" timestamp="1581089293744">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="267" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581072900603" />
-    <state width="1493" height="267" key="GridCell.Tab.2.center" timestamp="1581072900603">
+    <state width="1493" height="276" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581089293744" />
+    <state width="1493" height="276" key="GridCell.Tab.2.center" timestamp="1581089293744">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="267" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1581072900603" />
-    <state width="1493" height="267" key="GridCell.Tab.2.left" timestamp="1581072900603">
+    <state width="1493" height="276" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1581089293744" />
+    <state width="1493" height="276" key="GridCell.Tab.2.left" timestamp="1581089293744">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="267" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1581072900603" />
-    <state width="1493" height="267" key="GridCell.Tab.2.right" timestamp="1581072900603">
+    <state width="1493" height="276" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1581089293744" />
+    <state width="1493" height="276" key="GridCell.Tab.2.right" timestamp="1581089293744">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="267" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1581072900603" />
+    <state width="1493" height="276" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1581089293744" />
     <state x="598" y="91" key="Maven.ArtifactSearchDialog" timestamp="1580814320841">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -330,9 +374,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="562" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1580879616267" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1580966122847">
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1581087582841">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1580966122847" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1581087582841" />
   </component>
 </project>

@@ -60,4 +60,8 @@ public interface ItemDOMapper {
      * @mbg.generated Wed Feb 05 10:16:08 CST 2020
      */
     int updateByPrimaryKey(ItemDO record);
+
+    int increaseSales(Integer id,Integer amount);
+
+    int decreaseSales(Integer id,Integer amount);
 }
