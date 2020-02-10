@@ -29,7 +29,7 @@ public class OrderController extends BaseController{
     public CommonReturnType createOrder(@RequestParam(name = "itemId")Integer itemId,
                                         @RequestParam(name = "amount")Integer amount){
         //获取用户的登录信息
-        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
+        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_USER_LOGIN");
         if(isLogin == null || !isLogin.booleanValue()){
             throw new BusinessException(EmBusinessError.USER_NOT_LOGIN);
         }
@@ -43,7 +43,7 @@ public class OrderController extends BaseController{
     @RequestMapping(value = "/get",method = {RequestMethod.GET})
     public CommonReturnType getOrders(){
         //获取用户的登录信息
-        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
+        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_USER_LOGIN");
         if(isLogin == null || !isLogin.booleanValue()){
             throw new BusinessException(EmBusinessError.USER_NOT_LOGIN);
         }
@@ -63,7 +63,7 @@ public class OrderController extends BaseController{
                                           @RequestParam(name = "paymentMethod") Integer paymentMethod,
                                           @RequestParam(name = "address") String address){
         //获取用户的登录信息
-        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
+        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_USER_LOGIN");
         if(isLogin == null || !isLogin.booleanValue()){
             throw new BusinessException(EmBusinessError.USER_NOT_LOGIN);
         }
@@ -76,7 +76,7 @@ public class OrderController extends BaseController{
     @RequestMapping(value = "/cancel",method = {RequestMethod.POST},consumes = {BaseController.CONTENT_TYPE_FORMED})
     public CommonReturnType cancelOrder(@RequestParam(name = "id") String id){
         //获取用户的登录信息
-        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
+        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_USER_LOGIN");
         if(isLogin == null || !isLogin.booleanValue()){
             throw new BusinessException(EmBusinessError.USER_NOT_LOGIN);
         }

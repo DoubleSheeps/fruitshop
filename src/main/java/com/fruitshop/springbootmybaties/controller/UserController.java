@@ -46,7 +46,7 @@ public class UserController extends BaseController {
         UserModel userModel = userService.validateLoginByTelphone(telphone,this.EncodeByMd5(password));
 
         //将登录凭证加入到用户登录成功的session内
-        this.httpServletRequest.getSession().setAttribute("IS_LOGIN",true);
+        this.httpServletRequest.getSession().setAttribute("IS_USER_LOGIN",true);
         this.httpServletRequest.getSession().setAttribute("LOGIN_USER",userModel);
         //单位：秒
         //this.httpServletRequest.getSession().setMaxInactiveInterval(60);
@@ -64,7 +64,7 @@ public class UserController extends BaseController {
         UserModel userModel = userService.validateLoginByEmail(email,this.EncodeByMd5(password));
 
         //将登录凭证加入到用户登录成功的session内
-        this.httpServletRequest.getSession().setAttribute("IS_LOGIN",true);
+        this.httpServletRequest.getSession().setAttribute("IS_USER_LOGIN",true);
         this.httpServletRequest.getSession().setAttribute("LOGIN_USER",userModel);
         //单位：秒
         //this.httpServletRequest.getSession().setMaxInactiveInterval(60);
@@ -126,7 +126,7 @@ public class UserController extends BaseController {
     @RequestMapping(value = "/get",method = {RequestMethod.GET})
     public CommonReturnType getUser() throws BusinessException {
         //获取用户的登录信息
-        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
+        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_USER_LOGIN");
         if(isLogin == null || !isLogin.booleanValue()){
             throw new BusinessException(EmBusinessError.USER_NOT_LOGIN);
         }
@@ -144,7 +144,7 @@ public class UserController extends BaseController {
     @RequestMapping("/logout")
     public CommonReturnType logout(){
         //获取用户的登录信息
-        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
+        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_USER_LOGIN");
         if(isLogin == null || !isLogin.booleanValue()){
             throw new BusinessException(EmBusinessError.USER_NOT_LOGIN);
         }
@@ -158,7 +158,7 @@ public class UserController extends BaseController {
                                        @RequestParam(name = "age")Integer age,
                                        @RequestParam(name = "email")String email){
         //获取用户的登录信息
-        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
+        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_USER_LOGIN");
         if(isLogin == null || !isLogin.booleanValue()){
             throw new BusinessException(EmBusinessError.USER_NOT_LOGIN);
         }
@@ -176,7 +176,7 @@ public class UserController extends BaseController {
     @RequestMapping("/changePassword")
     public CommonReturnType changePassword(@RequestParam(name = "password")String password) throws UnsupportedEncodingException, NoSuchAlgorithmException {
         //获取用户的登录信息
-        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
+        Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_USER_LOGIN");
         if(isLogin == null || !isLogin.booleanValue()){
             throw new BusinessException(EmBusinessError.USER_NOT_LOGIN);
         }
@@ -205,7 +205,7 @@ public class UserController extends BaseController {
                                           @RequestParam(name = "otpCode") String otpCode,
                                           @RequestParam(name = "password")String password) throws UnsupportedEncodingException, NoSuchAlgorithmException {
         String inSessionOtpCode = (String) httpServletRequest.getSession().getAttribute(telphone);
-        if(!inSessionOtpCode.equals(otpCode)){
+        if(!StringUtils.equals(inSessionOtpCode,otpCode)){
             throw new BusinessException(EmBusinessError.PARAMETER_VALIDATION_ERROR,"短信验证码错误");
         }
         UserModel userModel = userService.getUserByTelphone(telphone);

@@ -13,7 +13,7 @@ public interface UserService {
     //用户注册手机校验
     Boolean isRegisteredByTelphone(String telphone);
 
-    //用户注册手机校验
+    //用户注册邮箱校验
     Boolean isRegisteredByEmail(String email);
 
     //注册

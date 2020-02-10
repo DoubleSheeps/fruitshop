@@ -47,7 +47,6 @@ public class ItemController extends BaseController {
         ItemModel itemModel= new ItemModel();
         StoreModel storeModel = (StoreModel) httpServletRequest.getSession().getAttribute("LOGIN_STORE");
         itemModel.setStoreName(storeModel.getStoreName());
-        itemModel.setStoreName("admin");
         itemModel.setTitle(title);
         itemModel.setDescription(description);
         itemModel.setSort(sort);
@@ -78,7 +77,6 @@ public class ItemController extends BaseController {
         ItemModel itemModel= new ItemModel();
         StoreModel storeModel = (StoreModel) httpServletRequest.getSession().getAttribute("LOGIN_STORE");
         itemModel.setStoreName(storeModel.getStoreName());
-        itemModel.setStoreName("admin");
         itemModel.setId(id);
         itemModel.setTitle(title);
         itemModel.setDescription(description);
