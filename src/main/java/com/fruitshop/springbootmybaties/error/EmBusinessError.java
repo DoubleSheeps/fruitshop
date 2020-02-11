@@ -10,6 +10,7 @@ public enum EmBusinessError implements CommonError {
     USER_NOT_EXIST(20001,"用户不存在"),
     USER_LOGIN_FAIL(20002,"用户账号或密码错误"),
     USER_NOT_LOGIN(20003,"用户未登录"),
+    USER_STATUS_ERROR(20004,"用户登录信息异常"),
 
     //3000开头为商品信息相关错误类型
     ITEM_NOT_EXIST(30001,"商品不存在"),
@@ -25,6 +26,9 @@ public enum EmBusinessError implements CommonError {
     ORDER_NOT_EXIST(50001,"订单不存在"),
     ORDER_STATUS_ERROR(50002,"订单状态出现异常"),
 
+    //6000开头为购物车信息相关错误类型
+    CART_NOT_EXIST(60001,"购物车记录不存在"),
+    CART_STATUS_ERROR(60002,"购物车状态异常"),
     ;
 
     private EmBusinessError(int errCode,String errMsg){

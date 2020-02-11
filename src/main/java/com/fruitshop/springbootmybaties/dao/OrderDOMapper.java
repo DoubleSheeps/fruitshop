@@ -56,4 +56,6 @@ public interface OrderDOMapper {
      * @mbg.generated Sun Feb 09 15:39:06 CST 2020
      */
     int updateByPrimaryKey(OrderDO record);
+
+    int cancelOrder(String id);
 }

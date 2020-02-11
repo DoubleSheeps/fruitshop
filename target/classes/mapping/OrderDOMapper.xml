@@ -185,4 +185,9 @@
       payment_method = #{paymentMethod,jdbcType=INTEGER}
     where id = #{id,jdbcType=VARCHAR}
   </update>
+  <update id="cancelOrder" parameterType="java.lang.String">
+    update order_info
+    set status = 3,
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
 </mapper>

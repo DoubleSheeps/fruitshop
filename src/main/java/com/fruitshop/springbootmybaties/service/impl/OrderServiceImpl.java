@@ -100,7 +100,7 @@ public class OrderServiceImpl implements OrderService {
             throw new BusinessException(EmBusinessError.ORDER_NOT_EXIST);
         }
         if(orderDO.getUserId() != userId){
-            throw new BusinessException(EmBusinessError.USER_NOT_LOGIN,"登录信息异常");
+            throw new BusinessException(EmBusinessError.USER_STATUS_ERROR);
         }
         orderDO.setPaymentMethod(paymentMethod);
         orderDO.setStatus(2);
@@ -133,8 +133,7 @@ public class OrderServiceImpl implements OrderService {
         if(orderDO.getStatus() != 1){
             throw new BusinessException(EmBusinessError.ORDER_STATUS_ERROR);
         }
-        orderDO.setStatus(3);
-        orderDOMapper.updateByPrimaryKeySelective(orderDO);
+        orderDOMapper.cancelOrder(id);
         itemService.increaseStock(orderDO.getItemId(),orderDO.getAmount());
         Boolean result = itemService.decreaseSales(orderDO.getItemId(),orderDO.getAmount());
         if(!result){

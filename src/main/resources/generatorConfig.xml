@@ -29,10 +29,7 @@
         </javaClientGenerator>
 
         <!--生成对应表及类名-->
-        <table tableName="store_info" domainObjectName="StoreDO" enableCountByExample="false"
-               enableUpdateByExample="false" enableDeleteByExample="false"
-               enableSelectByExample="false" selectByExampleQueryId="false"></table>
-        <table tableName="store_password" domainObjectName="StorePasswordDO" enableCountByExample="false"
+        <table tableName="cart_info" domainObjectName="CartDO" enableCountByExample="false"
                enableUpdateByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false"></table>
 
